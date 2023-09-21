@@ -18,4 +18,16 @@ namespace BookLibrary.Models
         public string Category { get; set; }
         public string Description { get; set; }
     }
+
+    public class Book2
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public long BookId { get; set; }
+        public string Name { get; set; }
+        public string Author { get; set; }
+        public DateTime DOR { get; set; }
+        public string Category { get; set; }
+        public string Description { get; set; }
+    }
 }

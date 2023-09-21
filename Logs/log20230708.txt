@@ -1,0 +1,63 @@
+2023-07-08 16:02:11.066 +01:00 [INF] Starting web host
+2023-07-08 16:02:22.386 +01:00 [INF] income req 1 GET
+2023-07-08 16:02:22.386 +01:00 [INF] income req 1 GET
+2023-07-08 16:02:22.391 +01:00 [INF] income req 2
+2023-07-08 16:02:22.391 +01:00 [INF] income req 2
+2023-07-08 16:02:22.391 +01:00 [INF] outgo res 2
+2023-07-08 16:02:22.391 +01:00 [INF] outgo res 2
+2023-07-08 16:02:22.392 +01:00 [INF] outgo res 1
+2023-07-08 16:02:22.392 +01:00 [INF] outgo res 1
+2023-07-08 16:17:05.409 +01:00 [INF] income req 1 GET
+2023-07-08 16:17:05.410 +01:00 [INF] income req 2
+2023-07-08 16:17:07.728 +01:00 [INF] Entering api call
+2023-07-08 16:17:12.751 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:17:12.993 +01:00 [INF] outgo res 2
+2023-07-08 16:17:12.993 +01:00 [INF] outgo res 1
+2023-07-08 16:21:50.048 +01:00 [INF] income req 1 GET
+2023-07-08 16:21:50.049 +01:00 [INF] income req 2
+2023-07-08 16:21:50.078 +01:00 [INF] Entering api call
+2023-07-08 16:21:50.203 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:21:50.206 +01:00 [INF] outgo res 2
+2023-07-08 16:21:50.206 +01:00 [INF] outgo res 1
+2023-07-08 16:23:20.511 +01:00 [INF] income req 1 GET
+2023-07-08 16:23:20.512 +01:00 [INF] income req 2
+2023-07-08 16:23:20.520 +01:00 [INF] Entering api call
+2023-07-08 16:23:21.297 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:23:21.300 +01:00 [INF] outgo res 2
+2023-07-08 16:23:21.300 +01:00 [INF] outgo res 1
+2023-07-08 16:31:58.553 +01:00 [INF] income req 1 GET
+2023-07-08 16:31:58.553 +01:00 [INF] income req 2
+2023-07-08 16:31:58.555 +01:00 [INF] Entering api call
+2023-07-08 16:31:58.606 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:31:58.608 +01:00 [INF] outgo res 2
+2023-07-08 16:31:58.608 +01:00 [INF] outgo res 1
+2023-07-08 16:38:24.980 +01:00 [INF] income req 1 GET
+2023-07-08 16:38:24.980 +01:00 [INF] income req 2
+2023-07-08 16:38:24.982 +01:00 [INF] Entering api call
+2023-07-08 16:38:24.988 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:38:25.023 +01:00 [INF] outgo res 2
+2023-07-08 16:38:25.023 +01:00 [INF] outgo res 1
+2023-07-08 16:53:49.962 +01:00 [INF] income req 1 GET
+2023-07-08 16:53:49.962 +01:00 [INF] income req 2
+2023-07-08 16:53:49.963 +01:00 [INF] Entering api call
+2023-07-08 16:53:50.009 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:53:50.023 +01:00 [INF] outgo res 2
+2023-07-08 16:53:50.023 +01:00 [INF] outgo res 1
+2023-07-08 16:54:19.702 +01:00 [INF] income req 1 GET
+2023-07-08 16:54:19.705 +01:00 [INF] income req 2
+2023-07-08 16:54:19.707 +01:00 [INF] Entering api call
+2023-07-08 16:54:19.717 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:54:19.719 +01:00 [INF] outgo res 2
+2023-07-08 16:54:19.720 +01:00 [INF] outgo res 1
+2023-07-08 16:58:41.524 +01:00 [INF] income req 1 GET
+2023-07-08 16:58:41.524 +01:00 [INF] income req 2
+2023-07-08 16:58:41.525 +01:00 [INF] Entering api call
+2023-07-08 16:58:41.596 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 16:58:41.599 +01:00 [INF] outgo res 2
+2023-07-08 16:58:41.601 +01:00 [INF] outgo res 1
+2023-07-08 17:09:35.649 +01:00 [INF] income req 1 GET
+2023-07-08 17:09:35.746 +01:00 [INF] income req 2
+2023-07-08 17:09:35.747 +01:00 [INF] Entering api call
+2023-07-08 17:09:36.434 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-08 17:09:36.603 +01:00 [INF] outgo res 2
+2023-07-08 17:09:36.603 +01:00 [INF] outgo res 1

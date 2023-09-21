@@ -1,0 +1,342 @@
+2023-07-10 16:23:34.922 +01:00 [INF] Starting web host
+2023-07-10 16:23:46.364 +01:00 [INF] income req 1 GET
+2023-07-10 16:23:46.367 +01:00 [INF] income req 2
+2023-07-10 16:23:46.368 +01:00 [INF] outgo res 2
+2023-07-10 16:23:46.368 +01:00 [INF] outgo res 1
+2023-07-10 16:23:46.482 +01:00 [INF] income req 1 GET
+2023-07-10 16:23:46.482 +01:00 [INF] income req 2
+2023-07-10 16:23:46.482 +01:00 [INF] outgo res 2
+2023-07-10 16:23:46.482 +01:00 [INF] outgo res 1
+2023-07-10 16:23:53.274 +01:00 [INF] income req 1 GET
+2023-07-10 16:23:53.274 +01:00 [INF] income req 2
+2023-07-10 16:26:19.664 +01:00 [INF] Starting web host
+2023-07-10 16:26:22.152 +01:00 [INF] income req 1 GET
+2023-07-10 16:26:22.155 +01:00 [INF] income req 2
+2023-07-10 16:26:22.155 +01:00 [INF] outgo res 2
+2023-07-10 16:26:22.155 +01:00 [INF] outgo res 1
+2023-07-10 16:26:22.277 +01:00 [INF] income req 1 GET
+2023-07-10 16:26:22.277 +01:00 [INF] income req 2
+2023-07-10 16:26:22.277 +01:00 [INF] outgo res 2
+2023-07-10 16:26:22.277 +01:00 [INF] outgo res 1
+2023-07-10 16:26:29.416 +01:00 [INF] income req 1 GET
+2023-07-10 16:26:29.416 +01:00 [INF] income req 2
+2023-07-10 16:30:55.597 +01:00 [INF] Starting web host
+2023-07-10 16:30:59.671 +01:00 [INF] income req 1 GET
+2023-07-10 16:30:59.675 +01:00 [INF] income req 2
+2023-07-10 16:30:59.675 +01:00 [INF] outgo res 2
+2023-07-10 16:30:59.675 +01:00 [INF] outgo res 1
+2023-07-10 16:30:59.822 +01:00 [INF] income req 1 GET
+2023-07-10 16:30:59.822 +01:00 [INF] income req 2
+2023-07-10 16:30:59.822 +01:00 [INF] outgo res 2
+2023-07-10 16:30:59.822 +01:00 [INF] outgo res 1
+2023-07-10 16:31:05.483 +01:00 [INF] income req 1 GET
+2023-07-10 16:31:05.484 +01:00 [INF] income req 2
+2023-07-10 16:33:28.666 +01:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2023-07-10 16:37:46.569 +01:00 [INF] Starting web host
+2023-07-10 16:37:49.045 +01:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book] Lifetime: Scoped ImplementationType: BookLibrary.Models.LibraryManager': Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book] Lifetime: Scoped ImplementationType: BookLibrary.Models.LibraryManager': Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at BookLibrary.Program.Main(String[] args) in D:\Masters\LibraryApi\BookLibrary\BookLibrary\Program.cs:line 34
+2023-07-10 16:38:56.410 +01:00 [INF] Starting web host
+2023-07-10 16:39:00.111 +01:00 [INF] income req 1 GET
+2023-07-10 16:39:00.115 +01:00 [INF] income req 2
+2023-07-10 16:39:00.116 +01:00 [INF] outgo res 2
+2023-07-10 16:39:00.116 +01:00 [INF] outgo res 1
+2023-07-10 16:39:00.264 +01:00 [INF] income req 1 GET
+2023-07-10 16:39:00.264 +01:00 [INF] income req 2
+2023-07-10 16:39:00.264 +01:00 [INF] outgo res 2
+2023-07-10 16:39:00.264 +01:00 [INF] outgo res 1
+2023-07-10 16:39:08.841 +01:00 [INF] income req 1 GET
+2023-07-10 16:39:08.841 +01:00 [INF] income req 2
+2023-07-10 16:39:09.008 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book]' while attempting to activate 'BookLibrary.Controllers.bookController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BookLibrary.Startup.<>c__DisplayClass5_0.<<Configure>b__3>d.MoveNext() in D:\Masters\LibraryApi\BookLibrary\BookLibrary\Startup.cs:line 131
+--- End of stack trace from previous location where exception was thrown ---
+   at BookLibrary.Startup.<>c__DisplayClass5_0.<<Configure>b__2>d.MoveNext() in D:\Masters\LibraryApi\BookLibrary\BookLibrary\Startup.cs:line 124
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-10 16:43:41.204 +01:00 [INF] Starting web host
+2023-07-10 16:43:43.337 +01:00 [INF] income req 1 GET
+2023-07-10 16:43:43.341 +01:00 [INF] income req 2
+2023-07-10 16:43:43.341 +01:00 [INF] outgo res 2
+2023-07-10 16:43:43.341 +01:00 [INF] outgo res 1
+2023-07-10 16:43:43.440 +01:00 [INF] income req 1 GET
+2023-07-10 16:43:43.440 +01:00 [INF] income req 2
+2023-07-10 16:43:43.440 +01:00 [INF] outgo res 2
+2023-07-10 16:43:43.440 +01:00 [INF] outgo res 1
+2023-07-10 16:43:48.938 +01:00 [INF] income req 1 GET
+2023-07-10 16:43:48.939 +01:00 [INF] income req 2
+2023-07-10 16:44:27.721 +01:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2023-07-10 16:46:13.031 +01:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2023-07-10 16:50:57.467 +01:00 [INF] Starting web host
+2023-07-10 16:50:59.344 +01:00 [INF] income req 1 GET
+2023-07-10 16:50:59.350 +01:00 [INF] income req 2
+2023-07-10 16:50:59.350 +01:00 [INF] outgo res 2
+2023-07-10 16:50:59.350 +01:00 [INF] outgo res 1
+2023-07-10 16:50:59.475 +01:00 [INF] income req 1 GET
+2023-07-10 16:50:59.475 +01:00 [INF] income req 2
+2023-07-10 16:50:59.475 +01:00 [INF] outgo res 2
+2023-07-10 16:50:59.475 +01:00 [INF] outgo res 1
+2023-07-10 16:51:07.801 +01:00 [INF] income req 1 GET
+2023-07-10 16:51:07.802 +01:00 [INF] income req 2
+2023-07-10 16:51:12.832 +01:00 [ERR] Failed executing DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 16:54:35.583 +01:00 [INF] Starting web host
+2023-07-10 16:54:37.428 +01:00 [INF] income req 1 GET
+2023-07-10 16:54:37.433 +01:00 [INF] income req 2
+2023-07-10 16:54:37.434 +01:00 [INF] outgo res 2
+2023-07-10 16:54:37.434 +01:00 [INF] outgo res 1
+2023-07-10 16:54:37.540 +01:00 [INF] income req 1 GET
+2023-07-10 16:54:37.540 +01:00 [INF] income req 2
+2023-07-10 16:54:37.540 +01:00 [INF] outgo res 2
+2023-07-10 16:54:37.540 +01:00 [INF] outgo res 1
+2023-07-10 16:54:43.982 +01:00 [INF] income req 1 GET
+2023-07-10 16:54:43.983 +01:00 [INF] income req 2
+2023-07-10 17:33:23.108 +01:00 [INF] Starting web host
+2023-07-10 17:33:25.594 +01:00 [INF] income req 1 GET
+2023-07-10 17:33:25.599 +01:00 [INF] income req 2
+2023-07-10 17:33:25.599 +01:00 [INF] outgo res 2
+2023-07-10 17:33:25.599 +01:00 [INF] outgo res 1
+2023-07-10 17:33:25.729 +01:00 [INF] income req 1 GET
+2023-07-10 17:33:25.729 +01:00 [INF] income req 2
+2023-07-10 17:33:25.729 +01:00 [INF] outgo res 2
+2023-07-10 17:33:25.729 +01:00 [INF] outgo res 1
+2023-07-10 17:33:30.985 +01:00 [INF] income req 1 GET
+2023-07-10 17:33:30.986 +01:00 [INF] income req 2
+2023-07-10 17:34:56.343 +01:00 [ERR] Failed executing DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 17:42:47.033 +01:00 [INF] Starting web host
+2023-07-10 17:42:49.126 +01:00 [INF] income req 1 GET
+2023-07-10 17:42:49.129 +01:00 [INF] income req 2
+2023-07-10 17:42:49.130 +01:00 [INF] outgo res 2
+2023-07-10 17:42:49.130 +01:00 [INF] outgo res 1
+2023-07-10 17:42:49.253 +01:00 [INF] income req 1 GET
+2023-07-10 17:42:49.253 +01:00 [INF] income req 2
+2023-07-10 17:42:49.253 +01:00 [INF] outgo res 2
+2023-07-10 17:42:49.253 +01:00 [INF] outgo res 1
+2023-07-10 17:42:55.735 +01:00 [INF] income req 1 GET
+2023-07-10 17:42:55.735 +01:00 [INF] income req 2
+2023-07-10 17:43:26.804 +01:00 [ERR] Failed executing DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 17:51:38.081 +01:00 [INF] Starting web host
+2023-07-10 17:51:40.118 +01:00 [INF] income req 1 GET
+2023-07-10 17:51:40.121 +01:00 [INF] income req 2
+2023-07-10 17:51:40.122 +01:00 [INF] outgo res 2
+2023-07-10 17:51:40.122 +01:00 [INF] outgo res 1
+2023-07-10 17:51:40.239 +01:00 [INF] income req 1 GET
+2023-07-10 17:51:40.239 +01:00 [INF] income req 2
+2023-07-10 17:51:40.239 +01:00 [INF] outgo res 2
+2023-07-10 17:51:40.239 +01:00 [INF] outgo res 1
+2023-07-10 17:51:47.932 +01:00 [INF] income req 1 GET
+2023-07-10 17:51:47.933 +01:00 [INF] income req 2
+2023-07-10 17:51:47.933 +01:00 [INF] outgo res 2
+2023-07-10 17:51:47.933 +01:00 [INF] outgo res 1
+2023-07-10 17:51:51.152 +01:00 [INF] income req 1 GET
+2023-07-10 17:51:51.152 +01:00 [INF] income req 1 GET
+2023-07-10 17:51:51.153 +01:00 [INF] income req 2
+2023-07-10 17:51:51.153 +01:00 [INF] income req 2
+2023-07-10 17:51:51.154 +01:00 [INF] outgo res 2
+2023-07-10 17:51:51.154 +01:00 [INF] outgo res 1
+2023-07-10 17:51:51.154 +01:00 [INF] outgo res 2
+2023-07-10 17:51:51.155 +01:00 [INF] outgo res 1
+2023-07-10 17:51:56.412 +01:00 [INF] income req 1 GET
+2023-07-10 17:51:56.412 +01:00 [INF] income req 2
+2023-07-10 17:52:00.243 +01:00 [ERR] Failed executing DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 17:53:36.054 +01:00 [INF] Starting web host
+2023-07-10 17:53:37.908 +01:00 [INF] income req 1 GET
+2023-07-10 17:53:37.911 +01:00 [INF] income req 2
+2023-07-10 17:53:37.911 +01:00 [INF] outgo res 2
+2023-07-10 17:53:37.911 +01:00 [INF] outgo res 1
+2023-07-10 17:53:38.021 +01:00 [INF] income req 1 GET
+2023-07-10 17:53:38.021 +01:00 [INF] income req 2
+2023-07-10 17:53:38.021 +01:00 [INF] outgo res 2
+2023-07-10 17:53:38.021 +01:00 [INF] outgo res 1
+2023-07-10 17:53:45.286 +01:00 [INF] income req 1 GET
+2023-07-10 17:53:45.286 +01:00 [INF] income req 2
+2023-07-10 17:53:49.259 +01:00 [ERR] Failed executing DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 17:54:29.042 +01:00 [INF] Starting web host
+2023-07-10 17:54:30.929 +01:00 [INF] income req 1 GET
+2023-07-10 17:54:30.934 +01:00 [INF] income req 2
+2023-07-10 17:54:30.935 +01:00 [INF] outgo res 2
+2023-07-10 17:54:30.935 +01:00 [INF] outgo res 1
+2023-07-10 17:54:31.072 +01:00 [INF] income req 1 GET
+2023-07-10 17:54:31.072 +01:00 [INF] income req 2
+2023-07-10 17:54:31.072 +01:00 [INF] outgo res 2
+2023-07-10 17:54:31.072 +01:00 [INF] outgo res 1
+2023-07-10 17:54:38.759 +01:00 [INF] income req 1 GET
+2023-07-10 17:54:38.759 +01:00 [INF] income req 2
+2023-07-10 17:55:08.105 +01:00 [ERR] Failed executing DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 17:57:10.007 +01:00 [INF] Starting web host
+2023-07-10 17:57:11.835 +01:00 [INF] income req 1 GET
+2023-07-10 17:57:11.839 +01:00 [INF] income req 2
+2023-07-10 17:57:11.840 +01:00 [INF] outgo res 2
+2023-07-10 17:57:11.840 +01:00 [INF] outgo res 1
+2023-07-10 17:57:11.987 +01:00 [INF] income req 1 GET
+2023-07-10 17:57:11.987 +01:00 [INF] income req 2
+2023-07-10 17:57:11.987 +01:00 [INF] outgo res 2
+2023-07-10 17:57:11.987 +01:00 [INF] outgo res 1
+2023-07-10 17:57:18.022 +01:00 [INF] income req 1 GET
+2023-07-10 17:57:18.023 +01:00 [INF] income req 2
+2023-07-10 17:57:21.865 +01:00 [ERR] Failed executing DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 17:59:07.287 +01:00 [INF] Starting web host
+2023-07-10 17:59:09.320 +01:00 [INF] income req 1 GET
+2023-07-10 17:59:09.327 +01:00 [INF] income req 2
+2023-07-10 17:59:09.327 +01:00 [INF] outgo res 2
+2023-07-10 17:59:09.327 +01:00 [INF] outgo res 1
+2023-07-10 17:59:09.478 +01:00 [INF] income req 1 GET
+2023-07-10 17:59:09.478 +01:00 [INF] income req 2
+2023-07-10 17:59:09.478 +01:00 [INF] outgo res 2
+2023-07-10 17:59:09.478 +01:00 [INF] outgo res 1
+2023-07-10 17:59:14.849 +01:00 [INF] income req 1 GET
+2023-07-10 17:59:14.851 +01:00 [INF] income req 2
+2023-07-10 17:59:19.586 +01:00 [ERR] Failed executing DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
+2023-07-10 18:04:07.182 +01:00 [INF] Starting web host
+2023-07-10 18:04:09.441 +01:00 [INF] income req 1 GET
+2023-07-10 18:04:09.444 +01:00 [INF] income req 2
+2023-07-10 18:04:09.444 +01:00 [INF] outgo res 2
+2023-07-10 18:04:09.445 +01:00 [INF] outgo res 1
+2023-07-10 18:04:09.560 +01:00 [INF] income req 1 GET
+2023-07-10 18:04:09.560 +01:00 [INF] income req 2
+2023-07-10 18:04:09.560 +01:00 [INF] outgo res 2
+2023-07-10 18:04:09.560 +01:00 [INF] outgo res 1
+2023-07-10 18:05:41.803 +01:00 [INF] income req 1 GET
+2023-07-10 18:05:41.803 +01:00 [INF] income req 2
+2023-07-10 18:05:46.715 +01:00 [INF] Entering api call
+2023-07-10 18:05:47.911 +01:00 [INF] returned data[{"BookId":1,"Name":"Java","Author":"James","DOR":"1994-12-20T00:00:00","Category":"horror","Description":"you can learn oops"},{"BookId":3,"Name":"c#","Author":"asd","DOR":"2022-02-08T00:00:00","Category":"coding","Description":" boo"},{"BookId":5,"Name":"wwww","Author":"uhb","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":6,"Name":"fjbfl","Author":"abfkjbshcs","DOR":"2022-02-12T00:00:00","Category":"whatever","Description":"test 1"},{"BookId":10002,"Name":null,"Author":null,"DOR":"0001-01-01T00:00:00","Category":null,"Description":null}]
+2023-07-10 18:05:48.085 +01:00 [INF] outgo res 2
+2023-07-10 18:05:48.085 +01:00 [INF] outgo res 1
+2023-07-10 18:40:43.121 +01:00 [INF] Starting web host
+2023-07-10 18:40:44.486 +01:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book] Lifetime: Scoped ImplementationType: BookLibrary.Models.LibraryManager': Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book] Lifetime: Scoped ImplementationType: BookLibrary.Models.LibraryManager': Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at BookLibrary.Program.Main(String[] args) in D:\Masters\LibraryApi\BookLibrary\BookLibrary\Program.cs:line 34
+2023-07-10 18:41:49.386 +01:00 [INF] Starting web host
+2023-07-10 18:41:50.237 +01:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book] Lifetime: Scoped ImplementationType: BookLibrary.Models.LibraryManager': Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book] Lifetime: Scoped ImplementationType: BookLibrary.Models.LibraryManager': Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'BookLibrary.Models.BookContext' while attempting to activate 'BookLibrary.Models.LibraryManager'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at BookLibrary.Program.Main(String[] args) in D:\Masters\LibraryApi\BookLibrary\BookLibrary\Program.cs:line 34
+2023-07-10 18:42:44.297 +01:00 [INF] Starting web host
+2023-07-10 18:42:47.015 +01:00 [INF] income req 1 GET
+2023-07-10 18:42:47.021 +01:00 [INF] income req 2
+2023-07-10 18:42:47.022 +01:00 [INF] outgo res 2
+2023-07-10 18:42:47.022 +01:00 [INF] outgo res 1
+2023-07-10 18:42:47.149 +01:00 [INF] income req 1 GET
+2023-07-10 18:42:47.149 +01:00 [INF] income req 2
+2023-07-10 18:42:47.149 +01:00 [INF] outgo res 2
+2023-07-10 18:42:47.149 +01:00 [INF] outgo res 1
+2023-07-10 18:42:52.917 +01:00 [INF] income req 1 GET
+2023-07-10 18:42:52.917 +01:00 [INF] income req 2
+2023-07-10 18:42:53.075 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BookLibrary.Models.IBookRepo`1[BookLibrary.Models.Book]' while attempting to activate 'BookLibrary.Controllers.bookController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BookLibrary.Startup.<>c__DisplayClass5_0.<<Configure>b__3>d.MoveNext() in D:\Masters\LibraryApi\BookLibrary\BookLibrary\Startup.cs:line 131
+--- End of stack trace from previous location where exception was thrown ---
+   at BookLibrary.Startup.<>c__DisplayClass5_0.<<Configure>b__2>d.MoveNext() in D:\Masters\LibraryApi\BookLibrary\BookLibrary\Startup.cs:line 124
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-10 18:44:32.761 +01:00 [INF] Starting web host
+2023-07-10 18:44:35.145 +01:00 [INF] income req 1 GET
+2023-07-10 18:44:35.151 +01:00 [INF] income req 2
+2023-07-10 18:44:35.151 +01:00 [INF] outgo res 2
+2023-07-10 18:44:35.151 +01:00 [INF] outgo res 1
+2023-07-10 18:44:35.254 +01:00 [INF] income req 1 GET
+2023-07-10 18:44:35.254 +01:00 [INF] income req 2
+2023-07-10 18:44:35.254 +01:00 [INF] outgo res 2
+2023-07-10 18:44:35.254 +01:00 [INF] outgo res 1
+2023-07-10 18:44:40.706 +01:00 [INF] income req 1 GET
+2023-07-10 18:44:40.706 +01:00 [INF] income req 2
+2023-07-10 18:45:12.333 +01:00 [ERR] Failed executing DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[dept_no], [d].[emp_no], [d].[from_date], [d].[to_date]
+FROM [Depts] AS [d]
