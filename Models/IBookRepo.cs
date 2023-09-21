@@ -8,7 +8,7 @@ namespace BookLibrary.Models
     public interface IBookRepo<TEntity>
     {
         IEnumerable<TEntity> GetAll();
-
+        Guid GetOperationID();
 
         object Get(int id);
 
@@ -16,6 +16,6 @@ namespace BookLibrary.Models
         object Update(TEntity dbEntity, TEntity entity);
         object UpdateById(int Id,TEntity entity);
 
-        object Delete(TEntity entity);
+        object Delete(int entity);
     }
 }

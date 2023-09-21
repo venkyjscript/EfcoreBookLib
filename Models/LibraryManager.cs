@@ -8,6 +8,8 @@ namespace BookLibrary.Models
     public class LibraryManager:IBookRepo<Book>
     {
 
+
+       
         readonly BookContext _dbContext;
         public LibraryManager(BookContext context)
         {
@@ -56,12 +58,19 @@ namespace BookLibrary.Models
 
 
 
-        public object Delete(Book Book)
+        public object Delete(int id)
         {
-           return new Book();
+            var item=_dbContext.Books.Where(p => p.BookId == id).Select(p => p).FirstOrDefault();
+            _dbContext.Remove(item);
+            _dbContext.SaveChanges();
+            return item;
         }
 
-    }
+		public Guid GetOperationID()
+		{
+			throw new NotImplementedException();
+		}
+	}
 
 
 }

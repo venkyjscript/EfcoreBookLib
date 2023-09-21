@@ -23,7 +23,7 @@ namespace BookLibrary.Controllers
             _actionDescriptorCollectionProvider = actionDescriptorCollectionProvider;
         }
 
-        public IActionResult Index()
+        protected IActionResult Index()
         {
             StringBuilder sb = new StringBuilder();
 
